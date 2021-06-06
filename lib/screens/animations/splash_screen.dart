@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:lit_firebase_auth/lit_firebase_auth.dart';
-import 'package:maintenance_app/screens/home_page.dart';
+import 'package:maintenance_app/screens/home/home_page.dart';
 
-import 'auth/auth.dart';
+import '../auth/auth.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key key}) : super(key: key);

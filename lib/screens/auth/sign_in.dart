@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lit_firebase_auth/lit_firebase_auth.dart';
 import 'package:maintenance_app/config/palette.dart';
-import 'package:maintenance_app/screens/auth/decoration_functions.dart';
-import 'package:maintenance_app/screens/auth/sign_in_up_bar.dart';
-import 'package:maintenance_app/screens/auth/title.dart';
+import 'package:maintenance_app/config/decoration_functions.dart';
+import 'package:maintenance_app/widgets/sign_in_up_bar.dart';
+import 'package:maintenance_app/widgets/title.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({Key key, @required this.onRegisterClicked}) : super(key: key);

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:lit_firebase_auth/lit_firebase_auth.dart';
 import 'package:maintenance_app/screens/auth/register.dart';
 import 'package:maintenance_app/screens/auth/sign_in.dart';
-import 'package:maintenance_app/screens/auth_anitmation.dart';
+import 'package:maintenance_app/screens/animations/auth_anitmation.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({Key key}) : super(key: key);
